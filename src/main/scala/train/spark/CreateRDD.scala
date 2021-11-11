@@ -7,7 +7,7 @@ import org.apache.spark.SparkConf
 object CreateRDD {
   def main(args: Array[String]) {
     
-    val conf = new SparkConf().setAppName("Hello Scala Spark")
+    val conf = new SparkConf().setAppName("Spark RDD Demo")
     val sc = new SparkContext(conf)
     
     val data = Array(1,2,3,4,5,6,7,8,9,10)
